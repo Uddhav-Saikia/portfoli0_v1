@@ -202,6 +202,6 @@ export const MY_EXPERIENCE = [
     {
         title: 'Moderator',
         company: 'Music Club NIT Silchar',
-        duration: '1 year 11 months',
+        duration: 'Nov 2023 - Present',
     },
 ];
