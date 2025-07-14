@@ -7,11 +7,11 @@ export const generateStaticParams = async () => {
     return PROJECTS.map((project) => ({ slug: project.slug }));
 };
 
-export const generateMetadata = ({
+export const generateMetadata = async ({
     params,
 }: {
     params: { slug: string };
-}): Metadata => {
+}): Promise<Metadata> => {
     const project = PROJECTS.find((project) => project.slug === params.slug);
 
     return {
