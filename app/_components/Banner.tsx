@@ -48,21 +48,23 @@ const Banner = () => {
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
                         Hi! I&apos;m{' '}
                         <span className="font-medium text-foreground">
-                            Tajmirul
+                            Uddhav
                         </span>
-                        . A creative Frontend Developer with 3+ years of
-                        experience in building high-performance, scalable, and
-                        responsive web solutions.
+                        . Full-Stack Engineer with 3+ years of experience
+                        building scalable web systems and integrating AI into
+                        real-world products. Skilled in end-to-end development,
+                        from system design to deploying ML-powered features at
+                        scale.
                     </p>
                     <Button
                         as="link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href={GENERAL_INFO.upworkProfile}
+                        href="https://drive.google.com/file/d/175fo2ki0RGjBE5YAOCQ900WycVVgBLYz/view?usp=drive_link"
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
-                        Hire Me
+                        Resume
                     </Button>
                 </div>
 
@@ -85,7 +87,7 @@ const Banner = () => {
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            10K+
+                            1000+
                         </h5>
                         <p className="text-muted-foreground">Hours Worked</p>
                     </div>

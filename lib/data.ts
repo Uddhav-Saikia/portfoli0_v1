@@ -1,20 +1,17 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'tasmirolislam@gmail.com',
+    email: 'uddhavsaikia@gmail.com',
 
     emailSubject: "Let's collaborate on a project",
-    emailBody: 'Hi Tajmirul, I am reaching out to you because...',
+    emailBody: 'Hi Uddhav, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
-    upworkProfile: 'https://www.upwork.com/freelancers/tajmirul',
+    upworkProfile: '',
 };
 
 export const SOCIAL_LINKS = [
-    { name: 'github', url: 'https://github.com/Tajmirul' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/tajmirul' },
-    { name: 'facebook', url: 'https://www.facebook.com/tajmirul.2000' },
-    { name: 'Old Version', url: GENERAL_INFO.oldPortfolio },
+    { name: 'github', url: 'https://github.com/Uddhav-Saikia/' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/uddhavsaikia/' },
 ];
 
 export const MY_STACK = {
@@ -36,24 +33,12 @@ export const MY_STACK = {
             icon: '/logo/next.png',
         },
         {
-            name: 'Redux',
-            icon: '/logo/redux.png',
-        },
-        {
             name: 'Tailwind CSS',
             icon: '/logo/tailwind.png',
         },
         {
-            name: 'GSAP',
-            icon: '/logo/gsap.png',
-        },
-        {
             name: 'Frammer Motion',
             icon: '/logo/framer-motion.png',
-        },
-        {
-            name: 'SASS',
-            icon: '/logo/sass.png',
         },
         {
             name: 'Bootstrap',
@@ -64,10 +49,6 @@ export const MY_STACK = {
         {
             name: 'Node.js',
             icon: '/logo/node.png',
-        },
-        {
-            name: 'Nest.js',
-            icon: '/logo/nest.svg',
         },
         {
             name: 'Express.js',

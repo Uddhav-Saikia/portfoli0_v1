@@ -67,24 +67,25 @@ const AboutMe = () => {
                 <div className="grid md:grid-cols-12 mt-9">
                     <div className="md:col-span-5">
                         <p className="text-5xl slide-up-and-fade">
-                            Hi, I&apos;m Tajmirul.
+                            Hi, I&apos;m Uddhav.
                         </p>
                     </div>
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m a frontend web developer dedicated to
-                                turning ideas into creative solutions. I
-                                specialize in creating seamless and intuitive
-                                user experiences.
+                                I&apos;m a Full-Stack Developer focused on
+                                transforming ideas into intuitive, AI-enhanced
+                                user experiences. Specialized in building
+                                seamless interfaces backed by scalable,
+                                intelligent systems.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                My approach focuses on creating scalable,
-                                high-performing solutions tailored to both user
-                                needs and business objectives. By prioritizing
-                                performance, accessibility, and responsiveness,
-                                I strive to deliver experiences that not only
-                                engage users but also drive tangible results.
+                                My approach builds on solutions that are
+                                efficient, adaptable, and aligned with both what
+                                users need and what the business requires. My
+                                emphasis is on making systems fast, accessible,
+                                and responsive, ensuring they function well
+                                while also meeting practical goals.
                             </p>
                         </div>
                     </div>
