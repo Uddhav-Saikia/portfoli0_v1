@@ -19,7 +19,7 @@ const Experiences = () => {
                     start: 'top 60%',
                     end: 'bottom 50%',
                     toggleActions: 'restart none none reverse',
-                    scrub: 1,
+                    // scrub: 1,
                 },
             });
 
