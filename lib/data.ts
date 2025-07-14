@@ -277,6 +277,11 @@ export const MY_EXPERIENCE = [
         duration: 'Jun 2025 - Present',
     },
     {
+        title: 'Cadet',
+        company: 'National Cadet Corps',
+        duration: 'Oct 2023 - Present',
+    },
+    {
         title: 'Moderator',
         company: 'Music Club NIT Silchar',
         duration: '1 year 11 months',
