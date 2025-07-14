@@ -91,177 +91,95 @@ export const MY_STACK = {
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'MTI Electronics',
-        slug: 'mti-electronics',
-        liveUrl: 'https://mti-electronics.vercel.app/',
+        title: 'Brain Tumor Detection Using Deep Learning',
+        slug: 'brain-tumor-detection',
+        techStack: ['Python', 'TensorFlow', 'Keras', 'OpenCV'],
+        thumbnail: '/projects/thumbnail/brain-tumor.jpg',
+        longThumbnail: '/projects/long/brain-tumor.jpg',
+        images: ['/projects/images/brain-tumor.jpg'],
+        liveUrl: '',
         year: 2025,
-        description: `
-      A complete agency portfolio platform built for MTI Electronics to showcase their services, blog content, and product offerings. <br/> <br/>
-      
-      Key Features:<br/>
-      <ul>
-        <li>🛠️ Service Display System: Interactive service showcase with synchronized sliders</li>
-        <li>✍️ Blog Management: SEO-friendly blog with categorization and search</li>
-        <li>🛒 Product Catalog: Organized product display with filtering capabilities</li>
-        <li>📱 Fully Responsive: Optimized for all device sizes</li>
-        <li>⚡ Fast Performance: Optimized Next.js frontend with ISR (Incremental Static Regeneration)</li>
-      </ul><br/>
-      
-      Technical Highlights:
-      <ul>
-        <li>Implemented complex slider synchronization logic using Swiper.js</li>
-        <li>Customized Payload CMS admin panel for intuitive content management</li>
-        <li>Developed reusable UI components with shadcn for design consistency</li>
-        <li>Configured efficient data fetching strategies in Next.js</li>
-      </ul>
-      `,
-        role: `
-      Full-Stack Developer <br/>
-      Owned the entire development lifecycle:
-      <ul>
-        <li>✅ Backend: Configured Payload CMS with custom collections for services, blogs, and products</li>
-        <li>🎨 Frontend: Built all UI components using Tailwind CSS and shadcn</li>
-        <li>🔄 State Management: Implemented client-side data fetching and caching</li>
-        <li>🖥️ CMS Customization: Created admin interfaces for content editors</li>
-        <li>🚀 Deployment: Set up CI/CD pipeline for Vercel hosting</li>
-        <li>🧩 Third-Party Integration: Added Swiper.js for interactive sliders</li>
-      </ul>
-      `,
-        techStack: [
-            'Next.js',
-            'Payload CMS',
-            'Tailwind CSS',
-            'shadcn',
-            'Swiper.js',
-            'React Hook Form',
-            'Vercel',
-        ],
-        thumbnail: '/projects/thumbnail/mti-electronics.webp',
-        longThumbnail: '/projects/long/mti-electronics.webp',
-        images: [
-            '/projects/images/mti-electronics-1.webp',
-            '/projects/images/mti-electronics-2.webp',
-        ],
+        description: `Achieved 91% classification accuracy on MRI brain scan validation datasets by building and training a CNN model using TensorFlow and Keras. Reduced false positives by 20% through image preprocessing and data augmentation techniques such as rotation and flipping.`,
+        role: `Independently handled model design and training. Focused on CNN architecture optimization and image preprocessing for improving detection accuracy.`,
     },
     {
-        title: 'Epikcart',
-        slug: 'epikcart',
-        techStack: [
-            'React',
-            'Redux',
-            'React i18n',
-            'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration',
-        ],
-        thumbnail: '/projects/thumbnail/epikcart.jpg',
-        longThumbnail: '/projects/long/epikcart.jpg',
-        images: [
-            '/projects/images/epikcart-1.png',
-            '/projects/images/epikcart-2.png',
-            '/projects/images/epikcart-3.png',
-            '/projects/images/epikcart-4.png',
-            '/projects/images/epikcart-5.png',
-        ],
-        liveUrl: 'https://demo.epikcart.siphertech.com/',
-        year: 2023,
-        description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-        role: `As the frontend developer in a team of five, I: <br/>
-        - Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.<br/>
-        - Developed dynamic filtering logic for the product search page with admin-configurable parameters.<br/>
-        - Integrated multi-language support with React i18n, including RTL handling.<br/>
-        - Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.`,
-    },
-    {
-        title: 'Resume Roaster',
-        slug: 'resume-roaster',
-        techStack: [
-            'GPT-4',
-            'Next.js',
-            'Postgressql',
-            'Prisma',
-            'Tailwind CSS',
-        ],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-        longThumbnail: '/projects/long/resume-roaster.jpg',
-        images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
-        ],
-        liveUrl: 'https://resume-roaster.vercel.app/',
-        year: 2023,
-        description:
-            'Resume Roaster is a web application designed to provide tailored resume feedback and professional writing services. Built with Next.js, PostgreSQL, Prisma, and Tailwind CSS, it integrates GPT-4 for AI-powered recommendations. The platform also includes peer-to-peer reviews with a points-based system, fostering a collaborative and engaging experience. Targeting freshers, experienced professionals, and programmers, it helps optimize resumes for job-specific success.',
-        role: `As the sole developer and business owner, I:<br/>
-        - Designed and developed the platform end-to-end using Next.js, PostgreSQL, Prisma, and Tailwind CSS.<br/>
-        - Integrated GPT-4 for AI-driven feedback and insights.<br/>
-        - Implemented complex SQL queries, including one to identify the top two resumes based on user points.`,
-    },
-    {
-        title: 'Real Estate',
-        slug: 'property-pro',
+        title: 'Carbon Footprint Analyser',
+        slug: 'carbon-footprint-analyser',
         techStack: [
             'React.js',
-            'Redux',
-            'Tailwind CSS',
-            'React i18n',
-            'Framer Motion',
+            'Node.js',
+            'Express.js',
+            'MongoDB',
+            'GraphQL',
+            'ExcelJS',
         ],
-        thumbnail: '/projects/thumbnail/property-pro.jpg',
-        longThumbnail: '/projects/long/property-pro.jpg',
-        images: [
-            '/projects/images/property-pro-1.png',
-            '/projects/images/property-pro-2.png',
-            '/projects/images/property-pro-3.png',
-        ],
-        liveUrl: 'https://demo.propertypro.siphertech.com/',
-        year: 2023,
-        description:
-            'PropertyPro is a real estate management platform offering users a seamless experience to explore, manage, and view property listings. The application emphasizes accessibility and responsive design, ensuring a smooth interface across devices.',
-        role: `As the frontend developer, I:<br/>
-        - Built the frontend using React, Redux, RTK Query, Framer Motion, and Tailwind CSS.<br/>
-        - Integrated dynamic state management for efficient handling of property data.<br/>
-        - Implemented multi-language support with React i18n to cater to diverse audiences.<br/>
-        - Enhanced user interaction with animations and transitions using Framer Motion.`,
+        thumbnail: '/projects/thumbnail/carbon-footprint.jpg',
+        longThumbnail: '/projects/long/carbon-footprint.jpg',
+        images: ['/projects/images/carbon-footprint.jpg'],
+        liveUrl: '',
+        year: 2025,
+        description: `Built a full-stack application that enables users to calculate and visualize their carbon footprint through interactive charts, enhancing climate awareness. Implemented JWT authentication for user security and personalized tracking.`,
+        role: `Led both frontend and backend development. Built visualizations, managed GraphQL integration, and implemented secure user authentication.`,
     },
     {
-        title: 'Consulting Finance',
-        slug: 'crenotive',
-        techStack: ['HTML', 'CSS & SCSS', 'Javascript', 'Bootstrap'],
-        thumbnail: '/projects/thumbnail/consulting-finance.jpg',
-        longThumbnail: '/projects/long/consulting-finance.jpg',
-        images: [
-            '/projects/images/consulting-finance-1.png',
-            '/projects/images/consulting-finance-2.png',
-            '/projects/images/consulting-finance-3.png',
-        ],
-        sourceCode: 'https://github.com/Tajmirul/crenotive',
-        liveUrl: 'https://crenotive.netlify.app/',
-        year: 2023,
-        description:
-            'I developed Crenotive, a portfolio website using Html, SASS, and jQuery to showcase services and expertise. The design focuses on responsive user experience and effective presentation of professional achievements.',
-        role: ``,
+        title: 'AI-Powered Mental Health Chatbot',
+        slug: 'mental-health-chatbot',
+        techStack: ['Python', 'NLP', 'PyTorch', 'MERN Stack'],
+        thumbnail: '/projects/thumbnail/mental-health.jpg',
+        longThumbnail: '/projects/long/mental-health.jpg',
+        images: ['/projects/images/mental-health.jpg'],
+        liveUrl: '',
+        year: 2024,
+        description: `Developed a chatbot providing empathetic support using NLP and sentiment analysis. Enhanced emotional accuracy through intent recognition and fine-tuned NLP models.`,
+        role: `Focused on model training and integration with MERN-based frontend. Tuned NLP pipeline for context-aware emotional responses.`,
     },
     {
-        title: 'devLinks',
-        slug: 'devLinks',
-        techStack: ['Next.js', 'Formik', 'Drag & Drop', 'Tailwind CSS'],
-        thumbnail: '/projects/thumbnail/devLinks.jpg',
-        longThumbnail: '/projects/long/devLinks.jpg',
-        images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
-        ],
-        sourceCode: 'https://github.com/Tajmirul/devsLink',
-        liveUrl: 'https://devlinks-demo.vercel.app/auth/signin',
-        year: 2023,
-        description: `One of the most challenging projects in Frontend Mentor.<br/><br/>
-
-            I developed a LinkSharing App as part of the Frontend Mentor challenge, utilizing React, Redux, and Tailwind CSS to create a responsive and feature-rich platform. The app allows users to share, save, and explore links, with a focus on intuitive design and smooth navigation. Advanced state management ensures efficient data handling for user interactions.`,
-        role: ``,
+        title: 'Robotics & Embedded Systems',
+        slug: 'robotics-and-embedded-systems',
+        techStack: ['Arduino', 'C++', 'Sensors', 'Motors'],
+        thumbnail: '/projects/thumbnail/robotics.jpg',
+        longThumbnail: '/projects/long/robotics.jpg',
+        images: ['/projects/images/robotics.jpg'],
+        liveUrl: '',
+        year: 2024,
+        description: `Designed autonomous and sensor-driven robots including self-balancing bots, maze-solving rovers, and quadcopters. Covered full-cycle hardware integration, control logic, and testing.`,
+        role: `Worked across multiple bots, from circuit wiring to embedded programming. Led PID tuning, IR sensor logic, and documentation tasks.`,
+    },
+    {
+        title: 'NERDS Robotics Club Website',
+        slug: 'nerds-website',
+        techStack: ['MERN Stack', 'REST APIs', 'CI/CD'],
+        thumbnail: '/projects/thumbnail/nerds.jpg',
+        longThumbnail: '/projects/long/nerds.jpg',
+        images: ['/projects/images/nerds.jpg'],
+        liveUrl: '',
+        year: 2024,
+        description: `Developed the official club website to showcase robotics projects and manage internal documentation. Added features like admin CMS, project dashboards, and continuous deployment workflows.`,
+        role: `Handled full-stack development. Built CMS tools, integrated GitHub CI/CD pipelines, and structured documentation portal.`,
+    },
+    {
+        title: 'Facial Recognition Attendance',
+        slug: 'facial-recognition-attendance',
+        techStack: ['Python', 'OpenCV'],
+        thumbnail: '/projects/thumbnail/face-attendance.jpg',
+        longThumbnail: '/projects/long/face-attendance.jpg',
+        images: ['/projects/images/face-attendance.jpg'],
+        liveUrl: '',
+        year: 2021,
+        description: `Developed facial recognition software using ML algorithms to detect and identify individuals for attendance purposes.`,
+        role: `Implemented the image preprocessing, facial feature extraction, and comparison logic using OpenCV and Python.`,
+    },
+    {
+        title: 'Automatic Floor Cleaner',
+        slug: 'automatic-floor-cleaner',
+        techStack: ['Arduino', 'C++', 'Motors'],
+        thumbnail: '/projects/thumbnail/floor-cleaner.jpg',
+        longThumbnail: '/projects/long/floor-cleaner.jpg',
+        images: ['/projects/images/floor-cleaner.jpg'],
+        liveUrl: '',
+        year: 2019,
+        description: `Designed a manually operable floor cleaner combining a vacuum, water dispenser, and mop. Delivered a compact and user-friendly cleaning solution.`,
+        role: `Involved in both mechanical design and embedded programming using Arduino and motor control.`,
     },
 ];
 
