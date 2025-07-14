@@ -55,9 +55,9 @@ const AboutMe = () => {
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
                 <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
-                    " The goal isn't to fit into the world as it is, but to
+                    &quot;The goal isn't to fit into the world as it is, but to
                     shape it into what it could be, with every idea rooted in
-                    purpose.
+                    purpose.&quot;
                 </h2>
 
                 <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
