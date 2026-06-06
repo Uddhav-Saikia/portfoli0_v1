@@ -4,7 +4,7 @@
 
 Welcome to my **personal developer portfolio**. Built on the MERN stack in NextJS, this portfolio showcases my projects, skills, and experiences with clean design and smooth animations.
 
-🔗 [Live Site](https://your-live-site-link.com)
+🔗 [Live Site](https://uddhav.tech)
 
 ---
 
